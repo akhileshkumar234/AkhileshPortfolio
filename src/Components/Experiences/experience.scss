@@ -1,0 +1,31 @@
+@import "../../globalcolor.scss";
+.testinomy{
+    background-color: bisque;
+    text-align: center;
+    .expmargin{
+        padding: 20px;
+        .marbetcard{
+            margin-left: 20px;
+            .cardfont{
+                font: bold;
+                font-size: 25px;
+            }
+            .titlesubsize{
+                font-size: 20px;
+                
+            }
+        }
+    }
+    .btncol{
+        background-color: rgb(45, 184, 10);
+        color: rgb(10, 10, 10);
+    }
+    .btncol:hover{
+        background-color: $maincolor;
+        color: white;
+    }
+    .mycss:hover{
+        box-shadow: 5px 5px 20px rgb(56, 53, 53);
+        transition: 1s;
+    }
+}

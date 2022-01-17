@@ -1,0 +1,28 @@
+@import "../../globalcolor.scss";
+.work{
+    background-color: bisque;
+    text-align: center;
+    padding: 10px;
+    h1{
+        font-size: 35px;
+        font: bolder;
+    }
+    .container1{
+        font-size: 80px;
+        @include mobile{
+            font-size: 50px;
+        }
+    }
+    .topmar{
+        margin-top: -25px;
+        @include mobile{
+            margin-top: 0;
+        }
+    }
+    .primary1{
+      justify-content: space-between;
+    }
+    .spaceleft{
+        margin: 10px;
+    }
+}
