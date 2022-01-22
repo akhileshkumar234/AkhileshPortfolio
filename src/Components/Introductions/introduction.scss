@@ -12,14 +12,17 @@
         background-color: aqua;
         border-radius: 50%;
         .imagecontainer{
-            height: 500px;
-            width: 500px;
+            height: 450px;
+            width: 600px;
             display: flex;
             align-items: center;
-            justify-content: center;
-            float: right;
+            //justify-content: center;
+            padding-left: 50px;
+            //float: right;
             @include mobile{
                 align-items: flex-start;
+                float: right;
+                justify-content: center;
             }
             img{
                 height: 90%;

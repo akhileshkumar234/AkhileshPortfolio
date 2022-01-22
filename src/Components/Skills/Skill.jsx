@@ -21,7 +21,7 @@ export default function Work() {
           <i className="devicon-vscode-plain colored spaceleft"></i>
           </p>
         </div>
-        <br/>
+      
         <h3>Basics</h3>
         <div className='secondary1 container-fluid'>
           <i className="devicon-mongodb-plain-wordmark colored spaceleft"></i>
